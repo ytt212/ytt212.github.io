@@ -12,21 +12,12 @@
     color: white;
     font-size: 20px;
     line-height: 200%;
-    width:100px;
-    padding:0 0 0 25px;
-  }
-
-
-  h4 {
-    color: #00d0f0;
-    font-size: 20px;
-    line-height: 200%;
-
+    width: 100px;
+    padding: 0 0 0 25px;
   }
 
   .header {
-    background-color: #555555;
-    padding: 5px 0;
+    margin-bottom:-80px ;
   }
 
   .smaller-image {
@@ -38,30 +29,28 @@
     text-align: center
   }
 
+  .gray-box {
+    background-color: #555555; 
+    padding: 80px 0 770px 0;
+  }
 
   .leftpart {
-    height:700px ;
+    height: 700px;
     width: 20%;
     float: left;
     padding: 20px 0 0 3%;
-    
-    
-    border-style: solid;
-    border-width: 0px 0px 0px 177.5px;
-    border-left-color:#555555;
-    
+    background-color:white; 
+    margin:0 0 0 13%;
+
   }
 
   .rightpart {
-    height:720px ;
+    height: 720px;
     width: 45%;
     float: left;
     padding: 0 3% 0 3%;
-    
-    border-style: solid;
-    border-width: 0px 177.5px 0px 0px;
-    border-right-color:#555555;
-    
+    background-color:white; 
+
   }
 
   .t-style {
@@ -69,16 +58,11 @@
     padding: 0 10px;
   }
 
-  .footer {
-    background-color: #555555;
-    height:30px ;
-    clear:both;
-  }
-  
   .section {
     float: left;
     padding: 0 0 0 23%;
   }
+
 </style>
 
 <div class="header">
@@ -86,81 +70,79 @@
 </div>
 
 
-<div class="leftpart">
+<div class="gray-box">
 
-  <div style="text-align: center">
-    <img class="smaller-image" src="yutongtong.jpg">
-    <p style="font-size:x-large;color:#00d0f0;line-height: 50%" >郁彤彤</p>
+  <div class="leftpart">
+
+    <div style="text-align: center">
+      <img class="smaller-image" src="yutongtong.jpg">
+      <p style="font-size:x-large;color:#00d0f0;line-height: 50%">郁彤彤</p>
       <p style="font-size:x-large;color:#00d0f0;line-height: 50%">15863166212</p>
+    </div>
+
+    <h3>自我评价</h3>
+    <ul>
+      <li>较强的逻辑分析能力和学习能力</li>
+      <li>善于分解任务、制定计划、按计划完成任务</li>
+      <li>性格温和、有责任心</li>
+    </ul>
+
+    <h3>专业技能</h3>
+    <ul>
+      <li>了解css、html、JavaScript前端技术</li>
+      <li>熟悉c++语言、sql语言</li>
+      <li>熟悉基本数据结构及算法</li>
+      <li>熟悉MATLAB、VS、OpenCV图像处理库等工具</li>
+      <li>熟练掌握Word、Excel、PPT等软件</li>
+    </ul>
+
   </div>
 
-  <h3>自我评价</h3>
-  <ul>
-    <li>较强的逻辑分析能力和学习能力</li>
-    <li>善于分解任务、制定计划、按计划完成任务</li>
-    <li>性格温和、有责任心</li>
-  </ul>
+  <div class="rightpart">
+    <h3>教育背景</h3>
 
-  <h3>专业技能</h3>
-  <ul>
-    <li>了解css、html、JavaScript前端技术</li>
-    <li>熟悉c++语言、sql语言</li>
-    <li>熟悉基本数据结构及算法</li>
-    <li>熟悉MATLAB、VS、OpenCV图像处理库等工具</li>
-    <li>熟练掌握Word、Excel、PPT等软件</li>
-  </ul>
+    <div style="padding:0 0 0 2%">
+      <table border="0">
+        <tr>
+          <th class="t-style">2017.09-至今</th>
+          <td class="t-style">同济大学</td>
+          <td class="t-style">控制科学与工程专业</td>
+          <td class="t-style">硕士在读</td>
+          <td class="t-style">88.40</td>
+        </tr>
+        <tr>
+          <th class="t-style">2013.09-2017.06</th>
+          <td class="t-style">山东大学</td>
+          <td class="t-style">自动化专业</td>
+          <td class="t-style">本科</td>
+          <td class="t-style">90.00</td>
+        </tr>
+      </table>
+    </div>
 
-  
+    <h3>项目经历</h3>
+    <ul>
+      <li style="font-weight:bold">2017.01-2017.06 山东大学服务机器人实验室</li>
+      <p>在视觉定位与地图构建（SLAM）研究中，负责基于视觉的两帧估计。基于VS平台和opencv图像处理库，使用c++实现就两帧图像估计相机位姿。</p>
+      <li style="font-weight:bold">2017.09-至今 同济大学CIMS研究中心&中国中车股份有限公司</li>
+      <p>在“交通市场需求分析及新一代大轨道交通系统顶层架构设计”项目中，负责轨道交通市场需求分析，寻找轨交相关数据，挖掘分析数据隐藏的含义。使用excel、ppt等形成约40份可视化图表，撰写4万字分析报告，第三作者发表论文1篇。
+      </p>
+      <li style="font-weight:bold">2018.05-至今 同济大学CIMS研究中心</li>
+      <p>在基于熵的生物启发式人群疏散国家自然基金项目中，负责疏散平台维护与疏散仿真研究。使用matlab构建PSO/BA疏散模型，第一作者发表EI国际会议论文2篇。</p>
+    </ul>
+
+
+    <h3>兴趣爱好</h3>
+    <ul>
+      <li>弹钢琴</li>
+      <li>剪纸</li>
+      <li>下五子棋</li>
+    </ul>
+
+  </div>
 
 </div>
 
-<div class="rightpart">
-  <h3>教育背景</h3>
-  
-  <div style="padding:0 0 0 2%">
-  <table border="0">
-    <tr>
-      <th class="t-style">2017.09-至今</th>
-      <td class="t-style">同济大学</td>
-      <td class="t-style">控制科学与工程专业</td>
-      <td class="t-style">硕士在读</td>
-      <td class="t-style">88.40</td>
-    </tr>
-    <tr>
-      <th class="t-style">2013.09-2017.06</th>
-      <td class="t-style">山东大学</td>
-      <td class="t-style">自动化专业</td>
-      <td class="t-style">本科</td>
-      <td class="t-style">90.00</td>
-    </tr>
-  </table>
-  </div>
-
-  <h3>项目经历</h3>
-  <ul>
-    <li style="font-weight:bold">2017.01-2017.06 山东大学服务机器人实验室</li>
-    <p >在视觉定位与地图构建（SLAM）研究中，负责基于视觉的两帧估计。基于VS平台和opencv图像处理库，使用c++实现就两帧图像估计相机位姿。</p>
-    <li style="font-weight:bold">2017.09-至今 同济大学CIMS研究中心&中国中车股份有限公司</li>
-    <p >在“交通市场需求分析及新一代大轨道交通系统顶层架构设计”项目中，负责轨道交通市场需求分析，寻找轨交相关数据，挖掘分析数据隐藏的含义。使用excel、ppt等形成约40份可视化图表，撰写4万字分析报告，第三作者发表论文1篇。</p>
-    <li style="font-weight:bold">2018.05-至今 同济大学CIMS研究中心</li>
-    <p >在基于熵的生物启发式人群疏散国家自然基金项目中，负责疏散平台维护与疏散仿真研究。使用matlab构建PSO/BA疏散模型，第一作者发表EI国际会议论文2篇。</p>
-
-  </ul>
-
-  
-  <h3>兴趣爱好</h3>
-  <ul>
-    <li>弹钢琴</li>
-    <li>剪纸</li>
-    <li>下五子棋</li>
-  </ul>
-  
-
-</div>
-
-<div class="footer">
-    <h2></h2>
-  </div>
 
 <div class="section">
   <form action="/submit-cat-photo">
